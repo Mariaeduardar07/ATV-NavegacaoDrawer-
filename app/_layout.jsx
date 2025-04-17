@@ -1,63 +1,63 @@
 import { Drawer } from "expo-router/drawer";
- import { Ionicons } from "@expo/vector-icons";
- import { GestureHandlerRootView } from "react-native-gesture-handler";
- 
- export default function Layout() {
-   return (
-     <GestureHandlerRootView style={{ flex: 1 }}>
-     <Drawer>
-       <Drawer.Screen
-         name="index"
-         options={{
-           title: "Início",
-           drawerLabel: "Home",
-           //   headerShown: false,
-           //   headerLeft: true,
-           drawerIcon: ({ size, color }) => (
-             <Ionicons  name="home" size={size} color={color} />
-           ),
-         }}
-       />
-       <Drawer.Screen
-         name="calculadora"
-         options={{
-           title: "Calculadora",
-           drawerLabel: "Calculadora",
-            //  headerShown: false,
-            //  headerLeft: true,
-           drawerIcon: ({ size, color }) => (
-             <Ionicons name="home" size={size} color={color} />
-           ),
-         }}
-       />
+import { Ionicons } from "@expo/vector-icons";
+import { GestureHandlerRootView } from "react-native-gesture-handler";
+import SimpleLineIcons from "@expo/vector-icons/SimpleLineIcons";
 
-       <Drawer.Screen
-         name="contador"
-         options={{
-           title: "Contado Simples",
-           drawerLabel: "Contado Simples",
+export default function Layout() {
+  return (
+    <GestureHandlerRootView style={{ flex: 1 }}>
+      <Drawer>
+        <Drawer.Screen
+          name="index"
+          options={{
+            title: "Início",
+            drawerLabel: "Home",
+            //   headerShown: false,
+            //   headerLeft: true,
+            drawerIcon: ({ size, color }) => (
+              <Ionicons name="home" size={size} color={color} />
+            ),
+          }}
+        />
+        <Drawer.Screen
+          name="calculadora"
+          options={{
+            title: "Calculadora",
+            drawerLabel: "Calculadora",
             //  headerShown: false,
             //  headerLeft: true,
-           drawerIcon: ({ size, color }) => (
-             <Ionicons name="home" size={size} color={color} />
-           ),
-         }}
-       />
+            drawerIcon: ({ size, color }) => (
+              <SimpleLineIcons name="calculator" size={24} color="black" />
+            ),
+          }}
+        />
 
-       <Drawer.Screen
-         name="geradorSenha"
-         options={{
-           title: "Gerador de Senha",
-           drawerLabel: "Gerador de Senha",
+        <Drawer.Screen
+          name="contador"
+          options={{
+            title: "Contado Simples",
+            drawerLabel: "Contado Simples",
             //  headerShown: false,
             //  headerLeft: true,
-           drawerIcon: ({ size, color }) => (
-             <Ionicons name="home" size={size} color={color} />
-           ),
-         }}
-       />
- 
-     </Drawer>
-     </GestureHandlerRootView>
-   );
- }
+            drawerIcon: ({ size, color }) => (
+                <ion-icon name="stopwatch-outline"></ion-icon>
+            ),
+          }}
+        />
+
+        <Drawer.Screen
+          name="geradorSenha"
+          options={{
+            title: "Gerador de Senha",
+            drawerLabel: "Gerador de Senha",
+            //  headerShown: false,
+            //  headerLeft: true,
+            drawerIcon: ({ size, color }) => (
+              <ion-icon name="lock-closed-outline"></ion-icon>
+            ),
+          }}
+        />
+      </Drawer>
+    </GestureHandlerRootView>
+  );
+}
