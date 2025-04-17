@@ -40,7 +40,7 @@ export default function Layout() {
             //  headerShown: false,
             //  headerLeft: true,
             drawerIcon: ({ size, color }) => (
-                <ion-icon name="stopwatch-outline"></ion-icon>
+                <Ionicons name="stopwatch-outline" size={25} color={color}></Ionicons>
             ),
           }}
         />
@@ -53,7 +53,7 @@ export default function Layout() {
             //  headerShown: false,
             //  headerLeft: true,
             drawerIcon: ({ size, color }) => (
-              <ion-icon name="lock-closed-outline"></ion-icon>
+              <Ionicons name="lock-closed-outline" size={25} color={color}></Ionicons>
             ),
           }}
         />
