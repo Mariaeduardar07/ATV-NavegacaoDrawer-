@@ -10,6 +10,8 @@ export default function Layout() {
         <Drawer.Screen
           name="index"
           options={{
+            drawerActiveTintColor:'white',
+            drawerActiveBackgroundColor:'#f06292',
             title: "Início",
             drawerLabel: "Home",
             //   headerShown: false,
@@ -22,6 +24,8 @@ export default function Layout() {
         <Drawer.Screen
           name="calculadora"
           options={{
+            drawerActiveTintColor:'white',
+            drawerActiveBackgroundColor:'#f06292',
             title: "Calculadora",
             drawerLabel: "Calculadora",
             //  headerShown: false,
@@ -35,6 +39,8 @@ export default function Layout() {
         <Drawer.Screen
           name="contador"
           options={{
+            drawerActiveTintColor:'white',
+            drawerActiveBackgroundColor:'#f06292',
             title: "Contado Simples",
             drawerLabel: "Contado Simples",
             //  headerShown: false,
@@ -48,6 +54,8 @@ export default function Layout() {
         <Drawer.Screen
           name="geradorSenha"
           options={{
+            drawerActiveTintColor:'white',
+            drawerActiveBackgroundColor:'#f06292',
             title: "Gerador de Senha",
             drawerLabel: "Gerador de Senha",
             //  headerShown: false,
