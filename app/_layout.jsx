@@ -10,12 +10,10 @@ export default function Layout() {
         <Drawer.Screen
           name="index"
           options={{
-            drawerActiveTintColor:'white',
-            drawerActiveBackgroundColor:'#ff9ed2',
+            drawerActiveTintColor: "white",
+            drawerActiveBackgroundColor: "#ff9ed2",
             title: "Início",
             drawerLabel: "Home",
-            //   headerShown: false,
-            //   headerLeft: true,
             drawerIcon: ({ size, color }) => (
               <Ionicons name="home" size={size} color={color} />
             ),
@@ -24,12 +22,11 @@ export default function Layout() {
         <Drawer.Screen
           name="calculadora"
           options={{
-            drawerActiveTintColor:'white',
-            drawerActiveBackgroundColor:'#ff9ed2',
+            drawerActiveTintColor: "white",
+            drawerActiveBackgroundColor: "#ff9ed2",
             title: "Calculadora",
             drawerLabel: "Calculadora",
-            //  headerShown: false,
-            //  headerLeft: true,
+
             drawerIcon: ({ size, color }) => (
               <SimpleLineIcons name="calculator" size={24} color={color} />
             ),
@@ -39,14 +36,16 @@ export default function Layout() {
         <Drawer.Screen
           name="contador"
           options={{
-            drawerActiveTintColor:'white',
-            drawerActiveBackgroundColor:'#ff9ed2',
+            drawerActiveTintColor: "white",
+            drawerActiveBackgroundColor: "#ff9ed2",
             title: "Contado Simples",
             drawerLabel: "Contado Simples",
-            //  headerShown: false,
-            //  headerLeft: true,
             drawerIcon: ({ size, color }) => (
-                <Ionicons name="stopwatch-outline" size={25} color={color}></Ionicons>
+              <Ionicons
+                name="stopwatch-outline"
+                size={25}
+                color={color}
+              ></Ionicons>
             ),
           }}
         />
@@ -54,14 +53,16 @@ export default function Layout() {
         <Drawer.Screen
           name="geradorSenha"
           options={{
-            drawerActiveTintColor:'white',
-            drawerActiveBackgroundColor:'#ff9ed2',
+            drawerActiveTintColor: "white",
+            drawerActiveBackgroundColor: "#ff9ed2",
             title: "Gerador de Senha",
             drawerLabel: "Gerador de Senha",
-            //  headerShown: false,
-            //  headerLeft: true,
             drawerIcon: ({ size, color }) => (
-              <Ionicons name="lock-closed-outline" size={25} color={color}></Ionicons>
+              <Ionicons
+                name="lock-closed-outline"
+                size={25}
+                color={color}
+              ></Ionicons>
             ),
           }}
         />

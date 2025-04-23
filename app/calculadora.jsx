@@ -84,13 +84,13 @@ const styles = StyleSheet.create({
     fontSize: 75,
     fontWeight: 'bold',
     textAlign: 'right',
-    color: '#880e4f',
+    color: '#831541',
     marginBottom: '2%',
   },
   resultText: {
     fontSize: 50,
     textAlign: 'right',
-    color: '#666',
+    color: '#933058',
   },
   buttonsContainer: {
     justifyContent: 'space-between',
@@ -109,16 +109,16 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   defaultButton: {
-    backgroundColor: '#880e4f',
+    backgroundColor: '#9c003f',
   },
-  operatorButton: {
-    backgroundColor: '#af0d7b',
+  operatorButton:  {
+    backgroundColor: '#780030',
   },
   clearButton: {
-    backgroundColor: '#cc0264',
+    backgroundColor:'#d10054',
   },
   equalsButton: {
-    backgroundColor: '#c41b76',
+    backgroundColor: '#4d001f',
     flex: 1,
   },
   buttonText: {
