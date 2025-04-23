@@ -48,9 +48,7 @@ Você foi contratado por uma empresa de tecnologia que está desenvolvendo um ap
 ---
 
 ## 📸 Demonstração
-<video width="600" controls>
-  <source src="./assets/demonstração-mobile.mp4" type="video/mp4">
-</video>
+[![Demonstração do Projeto](./assets/demonstração-mobile.mp4)](https://youtu.be/GhJqPwWQ4uU?si=XgJacnxLAWWBOwtX)
 
 ---
 
