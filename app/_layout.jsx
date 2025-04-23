@@ -11,7 +11,7 @@ export default function Layout() {
           name="index"
           options={{
             drawerActiveTintColor:'white',
-            drawerActiveBackgroundColor:'#f06292',
+            drawerActiveBackgroundColor:'#ff9ed2',
             title: "Início",
             drawerLabel: "Home",
             //   headerShown: false,
@@ -25,13 +25,13 @@ export default function Layout() {
           name="calculadora"
           options={{
             drawerActiveTintColor:'white',
-            drawerActiveBackgroundColor:'#f06292',
+            drawerActiveBackgroundColor:'#ff9ed2',
             title: "Calculadora",
             drawerLabel: "Calculadora",
             //  headerShown: false,
             //  headerLeft: true,
             drawerIcon: ({ size, color }) => (
-              <SimpleLineIcons name="calculator" size={24} color="black" />
+              <SimpleLineIcons name="calculator" size={24} color={color} />
             ),
           }}
         />
@@ -40,7 +40,7 @@ export default function Layout() {
           name="contador"
           options={{
             drawerActiveTintColor:'white',
-            drawerActiveBackgroundColor:'#f06292',
+            drawerActiveBackgroundColor:'#ff9ed2',
             title: "Contado Simples",
             drawerLabel: "Contado Simples",
             //  headerShown: false,
@@ -55,7 +55,7 @@ export default function Layout() {
           name="geradorSenha"
           options={{
             drawerActiveTintColor:'white',
-            drawerActiveBackgroundColor:'#f06292',
+            drawerActiveBackgroundColor:'#ff9ed2',
             title: "Gerador de Senha",
             drawerLabel: "Gerador de Senha",
             //  headerShown: false,

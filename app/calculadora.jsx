@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, Text, TouchableOpacity, StyleSheet, Dimensions } from 'react-native';
+import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
 
 const buttons = [
   ['7', '8', '9', '/'],
@@ -74,21 +74,21 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff0f6',
-    padding: 20,
+    padding: '5%',
     justifyContent: 'flex-end',
   },
   displayContainer: {
-    marginBottom: 20,
+    marginBottom: '5%',
   },
   inputText: {
-    fontSize: 48,
+    fontSize: 75,
     fontWeight: 'bold',
     textAlign: 'right',
-    color: '#333',
-    marginBottom: 10,
+    color: '#880e4f',
+    marginBottom: '2%',
   },
   resultText: {
-    fontSize: 28,
+    fontSize: 50,
     textAlign: 'right',
     color: '#666',
   },
@@ -98,13 +98,15 @@ const styles = StyleSheet.create({
   row: {
     flexDirection: 'row',
     justifyContent: 'space-between',
-    marginBottom: 12,
+    marginBottom: '3%',
   },
   button: {
     width: 88,
     padding: 20,
     borderRadius: 12,
     alignItems: 'center',
+    margin: '1%',
+    flex: 1,
   },
   defaultButton: {
     backgroundColor: '#880e4f',
